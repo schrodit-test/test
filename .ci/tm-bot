@@ -2,3 +2,13 @@ echo:
   value: hallo
   test: xxx
   num: 5
+
+test:
+  hostprovider: gardener
+  baseClusterCloudprovider: gcp
+
+  gardensetup:
+    revision: master
+
+  gardener:
+    version: 0.29.1
