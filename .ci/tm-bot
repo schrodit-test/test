@@ -14,3 +14,11 @@ test:
   gardener:
     version:
       path: GARDENER_VERSION
+
+  kubernetes:
+    versions:
+    - 1.14.4
+    - 1.13.10
+
+  cloudproviders:
+  - gcp
