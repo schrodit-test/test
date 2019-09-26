@@ -8,7 +8,9 @@ test:
   baseClusterCloudprovider: gcp
 
   gardensetup:
-    revision: master
+    revision:
+      prHead: true
 
   gardener:
-    version: 0.29.1
+    version:
+      path: GARDENER_VERSION
