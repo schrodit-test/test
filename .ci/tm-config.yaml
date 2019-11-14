@@ -15,6 +15,10 @@ test:
     version:
       path: GARDENER_VERSION
 
+  gardener-extensions:
+    path: dep-versions.yaml
+    structuredJSONPATH: "versions.gardener.extensions"
+
   shootFlavors:
   - provider: gcp
     kubernetes:
