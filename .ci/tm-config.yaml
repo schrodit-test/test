@@ -24,4 +24,7 @@ test:
     kubernetes:
       versions:
       - version: 1.14.4
-      - version: 1.13.10
+  - provider: aws
+    kubernetes:
+      versions:
+      - version: 1.14.4
