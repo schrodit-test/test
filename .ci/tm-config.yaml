@@ -4,6 +4,11 @@ echo:
   num: 5
 
 test:
+  tests:
+  - subCommand: dummy
+    testrunPath: testruns/simple.yaml
+
+test-gardener:
   hostprovider: gardener
   baseClusterCloudprovider: gcp
 
