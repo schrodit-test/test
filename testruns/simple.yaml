@@ -29,7 +29,7 @@ spec:
     locations:
       - type: git
         repo: https://github.com/schrodit/test-infra.git
-        revision: enh/testrun-cmd
+        revision: master
 
   # Global config available to every test task in all phases (testFlow and onExit)
   config:
