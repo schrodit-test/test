@@ -7,6 +7,9 @@ test:
   tests:
   - subCommand: dummy
     testrunPath: testruns/simple.yaml
+  - subCommand: template
+    testrunPath: testruns/template.yaml
+    template: true
 
 test-gardener:
   hostprovider: gardener
